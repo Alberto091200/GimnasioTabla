@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factura</title>
+
+
+    <style>
+
+        table{
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #000000;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .title{
+            background-color: rgb(187, 184, 184);
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Factura</h1>
+    <table>
+
+        <thead>
+            <th class="title" colspan="3">Invoice#123456789</th>
+            <th class="title">14 January 2025</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td colspan="2"><strong>Pay to:<br></strong> Acme Billing<br> Co. 123 main St.<br> Cityville, NA 12345</td>
+                <td colspan="2"><strong>Customer<br></strong>John Smith<br> 321 Willow Way<br>Southeast Northwestershire, MA 54321</td>
+            </tr>
+        </tbody>
+
+        <thead>
+            <th class="title">Name / Descrption</th>
+            <th class="title">Qty.</th>
+            <th class="title">@</th>
+            <th class="title">Cost</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Paperclips</td>
+                <td>1000</td>
+                <td>0.01</td>
+                <td>10.00</td>
+            </tr>
+            <tr rowspan="1">
+                <td>Staples</td>
+                <td>100</td>
+                <td>1.00</td>
+                <td>100</td>
+            </tr>
+        </tbody>
+
+        <thead>
+            <th class="title" colspan="3">Subtotal</th>
+            <td>110.00</td>
+        </thead>
+
+        <thead>
+            <th class="title" colspan="2">Tax</th>
+            <td>8%</td>
+            <td>8.80</td>
+        </thead>
+
+        <thead>
+            <th class="title" colspan="3">Grand Total</th>
+            <td colspan="1">$118.80</td>
+        </thead>
+
+    </table>
+
+    <nav>
+        <ul>
+            <li><a href="gatitos.html">Página de Gatitos</a></li>
+        </ul>
+    </nav>
+
+</body>
+</html>
